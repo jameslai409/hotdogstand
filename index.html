@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body onload="getInfo()">
+
+        <h1>Welcome to Joe's Hotdogs!</h1>
+        <h2>Your Order</h2>
+        <p>
+            # Hotdogs: <span id="numHotdogs"></span> at $3.25 is $<span id="hotdogsTotal"></span>
+        </p>
+        <p>
+            # Fries: <span id="numFrenchfries"></span> at $2.00 is $<span id="frenchfriesTotal"></span>
+        </p>
+        <p>
+            # Drinks: <span id="numDrinks"></span> at $1.50 is $<span id="drinksTotal"></span>
+        </p>
+        <p id="subtotalMessage"></p>
+        <p>
+           Subtotal: $<span id="subtotal"></span></p>
+        </p>
+        <p>
+            Meals Tax: $<span id="mealsTax"></span></p>
+         </p>
+         <p>
+            Total: $<span id="total"></p>
+         </p>
+         
+    </body>
+
+
+</html>
